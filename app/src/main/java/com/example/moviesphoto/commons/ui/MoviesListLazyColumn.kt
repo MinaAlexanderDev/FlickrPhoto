@@ -99,12 +99,7 @@ fun MoviesListLazyColumn(
                         moviePhotoUrl = Constants.ADS_PHOTO_URL,
                         onClick = {
                             onClick(
-                                createMoviePhotoUrl(
-                                    farm = movie.farm,
-                                    server = movie.server,
-                                    id = movie.id,
-                                    secret = movie.secret
-                                )
+                                Constants.ADS_PHOTO_URL
                             )
                         }, imageDescription = imageDescription
                     )
