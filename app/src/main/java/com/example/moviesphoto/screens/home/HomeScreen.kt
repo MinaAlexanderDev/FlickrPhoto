@@ -16,8 +16,7 @@ import com.example.moviesphoto.commons.ui.MoviesListLazyColumn
 import com.example.moviesphoto.data.model.MoviePhotoStateEvent
 
 
-@SuppressLint("StateFlowValueCalledInComposition")
-@Composable
+ @Composable
 fun HomeScreen(
 ) {
     val viewModel: HomeViewModel = hiltViewModel()
